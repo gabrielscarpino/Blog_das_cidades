@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carousel, grids e cards bootstrap</title>
+    <title>Blog das cidades</title>
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -11,79 +11,85 @@
     <header>
         <h2>Blog das cidades</h2>
     </header>
-    <div class="site">
+
+<div class="site">
     <div class="container">
-        <div id="carousel-id" class="carousel carousel-fade slide" data-bs-ride=”carousel”>
+        <div id="carousel-id" class="carousel carousel-fade slide" data-bs-ride="carousel">
             <div class="carousel-inner"> 
                 <div data-bs-interval=”3000” class="carousel-item active"  >
-                    <img src="./Imagens/pexels-garrison-gao-56316964-7883864.jpg" alt="cidade">
+                    <img src="./Imagens/boston.jpeg" alt="cidade">
                 </div>
-                <div data-bs-interval=”3000” class="carousel-item" >
-                    <img src="./Imagens//pexels-zhangkaiyv-683419.jpg" alt="cidade">
+                <div data-bs-interval="3000" class="carousel-item" >
+                    <img src="./Imagens/minnesota.jpg" alt="cidade">
                 </div>
-                <div data-bs-interval=”3000” class="carousel-item" >
-                    <img src="./Imagens/pexels-peng-liu-45946-169647.jpg" alt="cidade">
+                <div data-bs-interval="3000" class="carousel-item" >
+                    <img src="./Imagens/Miami.jpg" alt="cidade">
                 </div>
             </div>
-            <button data-bs-target=”#carousel-id” data-bs-slide=”prev”  class="carousel-control-prev" type="button">
+            <button data-bs-target="#carousel-id" data-bs-slide="prev"  class="carousel-control-prev" type="button">
                 <span class="carousel-control-prev-icon"></span>
             </button>
-            <button data-bs-target=”#carousel-id” data-bs-slide="next"  class="carousel-control-next" type="button">
+            <button data-bs-target="#carousel-id" data-bs-slide="next"  class="carousel-control-next" type="button">
                 <span class="carousel-control-next-icon"></span>
             </button>
             <div class="carousel-indicators">
-                <button class="active" data-bs-target=”#carousel-id” type=”button”  data-bs-slide-to=”0”></button>
-                <button data-bs-target=”#carousel-id” type=”button”  data-bs-slide-to=”1”></button>
-                <button data-bs-target=”#carousel-id” type=”button”  data-bs-slide-to=”2”></button>
+                <button class="active" data-bs-target="#carousel-id" type="button"  data-bs-slide-to="0"></button>
+                <button data-bs-target="#carousel-id" type=”button”  data-bs-slide-to="1"></button>
+                <button data-bs-target="#carousel-id" type=”button”  data-bs-slide-to="2"></button>
             </div>
         </div>
-        <div class="row ">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <article class="card ">
-                    <div class="card-header">
-                        <h2>Conheça o México</h2>
-                        <img src="./Imagens/pexels-rickyrecap-1573471.jpg" alt="">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text">A Cidade do México é o principal e mais desenvolvido centro urbano, econômico, cultural e político do país, além de ser uma das maiores metrópoles do mundo</p>
-                    </div>
-                    <div class="cardy-footer">
-                        <a href="" class="btn btn-primary">
-                            Leia mais
-                        </a>
-                    </div>
-                </article>
-                <article class="card ">
-                    <div class="card-header">
-                        <h2>Conheça o México</h2>
-                        <img src="./Imagens/pexels-rickyrecap-1573471.jpg" alt="">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text">A Cidade do México é o principal e mais desenvolvido centro urbano, econômico, cultural e político do país, além de ser uma das maiores metrópoles do mundo</p>
-                    </div>
-                    <div class="cardy-footer">
-                        <a href="" class="btn btn-primary">
-                            Leia mais
-                        </a>
-                    </div>
-                </article>
-                <article class="card ">
-                    <div class="card-header">
-                        <h2>Conheça o México</h2>
-                        <img src="./Imagens/pexels-rickyrecap-1573471.jpg" alt="">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text">A Cidade do México é o principal e mais desenvolvido centro urbano, econômico, cultural e político do país, além de ser uma das maiores metrópoles do mundo</p>
-                    </div>
-                    <div class="cardy-footer">
-                        <a href="" class="btn btn-primary">
-                            Leia mais
-                        </a>
-                    </div>
-                </article>
+    </div>
+
+    <div class="fundo-card">
+        <div class="container">
+            <div class="row">
+                <div class="d-lg-flex d-md-flex d-sm-block"  >
+                    <article class="card col-lg-3 col-md-6 col-sm-12 me-2 mt-4">
+                        <div class="card-header">
+                            <h2>Miami</h2>
+                            <img src="./Imagens/Miami.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text"> Miami é uma cidade internacional no extremo sudeste da Flórida. Sua influência cubana se reflete nos cafés e lojas de charutos que ocupam a Calle Ocho, em Little Havana. </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-primary">
+                                Leia mais
+                            </a>
+                        </div>
+                    </article>
+                    <article class="card col-lg-3 col-md-6 col-sm-12 me-2 mt-4">
+                        <div class="card-header">
+                            <h2>Minnesota</h2>
+                            <img src="./Imagens/minnesota.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Minnesota é um estado da região centro-oeste dos EUA que faz fronteira com o Canadá e o Lago Superior, o maior dos Grandes Lagos. </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-primary">
+                                Leia mais
+                            </a>
+                        </div>
+                    </article>
+                    <article class="card col-lg-3 col-md-6 col-sm-12 mt-4">
+                        <div class="card-header">
+                            <h2>Boston</h2>
+                            <img src="./Imagens/boston.jpeg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Boston é a capital e a maior cidade de Massachusetts. Fundada em 1630, é uma das mais antigas cidades do EUA. </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-primary ">
+                                Leia mais
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 </div>
     <script src="./lib/bootstrap.bundle.min.js"></script>
 </body>
